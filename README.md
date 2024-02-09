@@ -100,11 +100,11 @@
 
 ## Развертывание Terraform сценария
 
-1. На вашей рабочей станции склонируйте [репозиторий](https://github.com/yandex-cloud/yc-solution-library-for-security/) `yandex-cloud/yc-solution-library-for-security` из GitHub и перейдите в папку сценария `remote-access-vpn`:
+1. На вашей рабочей станции склонируйте [репозиторий](https://github.com/yandex-cloud-examples/yc-remote-acess-vpn-with-wireguard-firezone/) `yandex-cloud-examples/yc-remote-acess-vpn-with-wireguard-firezone` из GitHub и перейдите в папку сценария `yc-remote-acess-vpn-with-wireguard-firezone`:
     ```bash
-    git clone https://github.com/yandex-cloud/yc-solution-library-for-security.git
+    git clone https://github.com/yandex-cloud-examples/yc-remote-acess-vpn-with-wireguard-firezone.git
 
-    cd yc-solution-library-for-security/network-sec/remote-access-vpn
+    cd yc-remote-acess-vpn-with-wireguard-firezone
     ```
 
 2. Настройте окружение для развертывания ([подробности](https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials)):
