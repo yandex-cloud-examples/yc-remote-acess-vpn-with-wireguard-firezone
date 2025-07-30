@@ -2,7 +2,7 @@
 
 users:
   - name: ${firezone_vm_username}
-    sudo: ALL=(ALL) NOPASSWD:ALL
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
     shell: /bin/bash
     ssh-authorized-keys:
       - "${firezone_ssh_key_pub}"
